@@ -4,7 +4,7 @@ from game import Game
 from colors import Colors
 
 pygame.init()
-
+ 
 # Define fonts and surfaces
 title_font = pygame.font.Font(None, 40)
 menu_font = pygame.font.Font(None, 60)
