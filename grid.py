@@ -9,7 +9,7 @@ class Grid:
 		self.grid = [[0 for j in range(self.num_cols)] for i in range(self.num_rows)]
 		self.colors = Colors.get_cell_colors()
 
-	def print_grid(self):
+	def print_grid(self): 
 		for row in range(self.num_rows):
 			for column in range(self.num_cols):
 				print(self.grid[row][column], end = " ")
@@ -40,7 +40,7 @@ class Grid:
 			self.grid[row+num_rows][column] = self.grid[row][column]
 			self.grid[row][column] = 0
 
-	def clear_full_rows(self):
+	def clear_full_rows(self): 
 		completed = 0
 		for row in range(self.num_rows-1, 0, -1):
 			if self.is_row_full(row):
