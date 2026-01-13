@@ -1,7 +1,7 @@
 from colors import Colors
 import pygame
 from position import Position
-
+ 
 class Block:
 	def __init__(self, id):
 		self.id = id
